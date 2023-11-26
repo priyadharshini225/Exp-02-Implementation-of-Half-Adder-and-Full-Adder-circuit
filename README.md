@@ -42,9 +42,11 @@ Developed by:PRIYADHARSHINI S
 RegisterNumber:23003522
 
 1.Program to design a half adder:
+
 ![Screenshot 2023-11-26 202514](https://github.com/priyadharshini225/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/138849213/e78d8490-ecd4-423c-bbe9-9a597a8231df)
 
 1.Program to design a full adder:
+
 ![Screenshot 2023-11-26 202639](https://github.com/priyadharshini225/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/138849213/99798bc7-5430-47de-94dc-f148b4c90ba9)
 
 
