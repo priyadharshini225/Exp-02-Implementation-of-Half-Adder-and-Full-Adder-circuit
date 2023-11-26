@@ -34,21 +34,60 @@ Sum =A’B’Cin + A’BCin’ + ABCin + AB’Cin’ = A ⊕ B ⊕ Cin Carry = A
 Connect the supply (+5V) to the circuit
 Switch ON the main switch
 If the output is 1, then the led glows.
-### 
-Program:
-/*
+
+### Program:
+```
 Program to design a half adder and full adder circuit and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
-*/
-Logic symbol & Truthtable
-RTL realization
+Developed by:PRIYADHARSHINI S
+RegisterNumber:23003522
 
-### Output:
-### RTL
-### TIMING DIAGRAM
+1.Program to design a half adder:
+module ex3(a,b,sum,carry);
+input a,b;
+output sum,carry;
+assign sum=a^b;
+assign carry=a&b;
+endmodule
+
+1.Program to design a full adder:
+module ex31(a,b,cin,sum,carry);
+input a,b,cin;
+output sum,carry;
+assign sum=a^b^cin;
+assign carry=(a&b)|((a^b)&cin);
+endmodule 
+```
+## Output:
+## RTL realization:
+## HALF ADDER:
+![image](https://github.com/priyadharshini225/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/138849213/a58d391c-14c0-48b2-9a37-93acdd089d9f)
 
 
-### TRUTH TABLE 
+## FULL ADDER:
+![image](https://github.com/priyadharshini225/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/138849213/7f3d4874-bc2a-43e0-b720-5dec31aa2e21)
 
-### Result:
+
+## TIMING DIAGRAM:
+## HALF ADDER:
+![image](https://github.com/priyadharshini225/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/138849213/711319a2-94c2-4f0f-b4bc-7b64b8dfca74)
+
+
+## FULL ADDER:
+![image](https://github.com/priyadharshini225/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/138849213/11f7cf3b-6bb8-4f4a-805b-a551f2048a31)
+
+
+## TRUTH TABLE:
+## HALF ADDER:
+![image](https://github.com/priyadharshini225/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/138849213/e8da5a40-5107-455f-8183-2a1d34472be0)
+
+
+## FULL ADDER:
+![image](https://github.com/priyadharshini225/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/138849213/0a7bae15-fe63-4611-86c6-8d15a9e172ff)
+
+
+## Result:
+Thus the half adder and full adder circuit are designed and the truth table for half adder and full adder are verified.
+
+
+
+
